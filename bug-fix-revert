@@ -6,7 +6,7 @@ $ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introd
   "head": {
     "ref": "bug-fix-revert",
     "repo": {
-      "full_name": "JonathanRReed/mcino-Introduction-to-Git-and-GitHub"
+      "full_name": "JonathanRReed/github-final-project"
     }
   },
   "base": {

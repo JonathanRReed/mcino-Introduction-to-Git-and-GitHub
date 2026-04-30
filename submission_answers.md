@@ -1,22 +1,22 @@
 Question 1:
-https://github.com/JonathanRReed/mcino-Introduction-to-Git-and-GitHub/blob/main/README.md
+https://github.com/JonathanRReed/github-final-project/blob/main/README.md
 
 Question 2:
-https://github.com/JonathanRReed/mcino-Introduction-to-Git-and-GitHub/blob/main/LICENSE
+https://github.com/JonathanRReed/github-final-project/blob/main/LICENSE
 
 Question 3:
-https://github.com/JonathanRReed/mcino-Introduction-to-Git-and-GitHub/blob/main/CODE_OF_CONDUCT.md
+https://github.com/JonathanRReed/github-final-project/blob/main/CODE_OF_CONDUCT.md
 
 Question 4:
-https://github.com/JonathanRReed/mcino-Introduction-to-Git-and-GitHub/blob/main/CONTRIBUTING.md
+https://github.com/JonathanRReed/github-final-project/blob/main/CONTRIBUTING.md
 
 Question 5:
-https://github.com/JonathanRReed/mcino-Introduction-to-Git-and-GitHub/blob/main/simple-interest.sh
+https://github.com/JonathanRReed/github-final-project/blob/main/simple-interest.sh
 
 Question 6:
-$ curl -s https://api.github.com/repos/JonathanRReed/mcino-Introduction-to-Git-and-GitHub | jq '{html_url, fork, parent: {full_name: .parent.full_name}, source: {full_name: .source.full_name}}'
+$ curl -s https://api.github.com/repos/JonathanRReed/github-final-project | jq '{html_url, fork, parent: {full_name: .parent.full_name}, source: {full_name: .source.full_name}}'
 {
-  "html_url": "https://github.com/JonathanRReed/mcino-Introduction-to-Git-and-GitHub",
+  "html_url": "https://github.com/JonathanRReed/github-final-project",
   "fork": true,
   "parent": {
     "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
@@ -47,7 +47,7 @@ $ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introd
   "head": {
     "ref": "bug-fix-revert",
     "repo": {
-      "full_name": "JonathanRReed/mcino-Introduction-to-Git-and-GitHub"
+      "full_name": "JonathanRReed/github-final-project"
     }
   },
   "base": {
@@ -63,10 +63,10 @@ Question 9:
 $ git branch -avv
   bug-fix-revert                92f8688 [origin/bug-fix-revert] fix: document decimal input support
   bug-fix-typo                  3c83b38 [origin/bug-fix-typo] fix: clarify simple interest readme
-* main                          65323f8 [origin/main] docs: refresh branch evidence
+* main                          96fdbe2 [origin/main] fix: align files with grader requirements
   remotes/origin/HEAD           -> origin/main
   remotes/origin/bug-fix-revert 92f8688 fix: document decimal input support
   remotes/origin/bug-fix-typo   3c83b38 fix: clarify simple interest readme
-  remotes/origin/main           65323f8 docs: refresh branch evidence
+  remotes/origin/main           96fdbe2 fix: align files with grader requirements
   remotes/upstream/HEAD         -> upstream/main
   remotes/upstream/main         ad95b0a Create close_pr.yml

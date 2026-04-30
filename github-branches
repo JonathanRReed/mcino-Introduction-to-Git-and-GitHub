@@ -1,10 +1,10 @@
 $ git branch -avv
   bug-fix-revert                92f8688 [origin/bug-fix-revert] fix: document decimal input support
   bug-fix-typo                  3c83b38 [origin/bug-fix-typo] fix: clarify simple interest readme
-* main                          65323f8 [origin/main] docs: refresh branch evidence
+* main                          96fdbe2 [origin/main] fix: align files with grader requirements
   remotes/origin/HEAD           -> origin/main
   remotes/origin/bug-fix-revert 92f8688 fix: document decimal input support
   remotes/origin/bug-fix-typo   3c83b38 fix: clarify simple interest readme
-  remotes/origin/main           65323f8 docs: refresh branch evidence
+  remotes/origin/main           96fdbe2 fix: align files with grader requirements
   remotes/upstream/HEAD         -> upstream/main
   remotes/upstream/main         ad95b0a Create close_pr.yml
