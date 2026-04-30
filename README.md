@@ -12,6 +12,8 @@ Simple Interest = Principal × Rate × Time / 100
 - Rate of interest
 - Time period
 
+Decimal values are supported for each input.
+
 ## How to Run
 
 Make the script executable, then run it from the terminal:
