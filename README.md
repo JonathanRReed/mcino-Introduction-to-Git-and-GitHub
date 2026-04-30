@@ -14,6 +14,8 @@ SI = P * R * T / 100
 - Rate of interest, the interest rate percentage
 - Time period, the length of time the money is invested or borrowed
 
+Decimal values are supported for each input.
+
 ## How to Run
 
 Make the script executable, then run it from the terminal:
